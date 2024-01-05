@@ -1,0 +1,26 @@
+
+version: 2
+
+sources:
+  - name: cus
+    meta:
+      external_location: "read_csv_auto('seeds/B1.csv', header = True, all_varchar = 0)"
+    tables:
+      - name: B1
+  # - name: my_first_dbt_model
+  #   description: "A starter dbt model"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+
+  # - name: my_second_dbt_model
+  #   description: "A starter dbt model"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null

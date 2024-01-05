@@ -1,0 +1,4 @@
+.env
+dbt_proj.logs
+dbt_proj.dbt_packages
+dbt_proj.targets
